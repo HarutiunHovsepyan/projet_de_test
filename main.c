@@ -22,11 +22,11 @@ void fonction_Dichotomy() {
 	printf("\nValeurs : ");
 	int array[20];
 	for (int i = 0; i < 20; i++) {
-		array[i] = i;
+		array[i] = i*i;
 		printf(" %d", array[i]);
 	}
 
-	int value = 8;
+	int value = 169;
 
 	printf("\n");
 	printf("valeur voulue : %d", value);
